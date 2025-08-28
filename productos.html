@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Victory Sportswear - Productos</title>
+  <link rel="icon" type="image/png" href="Imagenes/Logo.jpg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+      <img src="Imagenes/Logo.jpg" alt="Logo Victory Sports" width="50">
+      <h1>Victory Sportswear</h1>
+    </div>
+    <ul class="nav-links">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+  </ul>
+  <!-- 🔽 Agrega esto -->
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+</nav>
+  </header>
+
+  <!-- PRODUCTOS -->
+  <section class="products">
+    <h2>Nuestra Colección</h2>
+    <!-- 🔽 Descripción unida -->
+    <p class="section-desc">
+      En <strong>Victory Sports</strong> encontrarás ropa deportiva y accesorios pensados para acompañarte en cada entrenamiento.  
+      Diseños modernos, materiales resistentes y el estilo que define a los campeones.  
+      Explora nuestro catálogo y encuentra lo que necesitas para rendir al máximo.
+    </p>
+
+    <!-- 🔽 Tarjetas de productos -->
+    <div class="card-container">
+      <div class="card">
+        <img src="Imagenes/camisa.jpg" alt="Playera Deportiva">
+        <h3>Playera Deportiva</h3>
+        <p>Comodidad y frescura para tus entrenamientos.</p>
+        <p><strong>Q70.00</strong></p>
+        <button class="btn">Agregar</button>
+      </div>
+
+      <div class="card">
+        <img src="Imagenes/pantalón deportivo.jpg" alt="Pantalón Deportivo">
+        <h3>Pantalón Deportivo</h3>
+        <p>Diseño flexible y moderno para cualquier disciplina.</p>
+        <p><strong>Q120.00</strong></p>
+        <button class="btn">Agregar</button>
+      </div>
+
+      <div class="card">
+        <img src="Imagenes/sudadera negra.jpg" alt="Sudadera Premium">
+        <h3>Sudadera Premium</h3>
+        <p>Ideal para clima frío y sesiones intensas.</p>
+        <p><strong>Q150.00</strong></p>
+        <button class="btn">Agregar</button>
+      </div>
+
+      <div class="card">
+        <img src="Imagenes/tenis deportivos.jpg" alt="Tenis de Entrenamiento">
+        <h3>Tenis de Entrenamiento</h3>
+        <p>Resistentes y con soporte para largas jornadas.</p>
+        <p><strong>Q250.00</strong></p>
+        <button class="btn">Agregar</button>
+      </div>
+
+      <div class="card">
+        <img src="Imagenes/gorra deportiva.jpg" alt="Gorra Deportiva">
+        <h3>Gorra Deportiva</h3>
+        <p>Estilo urbano con máxima comodidad.</p>
+        <p><strong>Q80.00</strong></p>
+        <button class="btn">Agregar</button>
+      </div>
+
+      <div class="card">
+        <img src="Imagenes/mochila deportiva.jpg" alt="Mochila Victory">
+        <h3>Mochila Victory</h3>
+        <p>Práctica y espaciosa para tu día a día.</p>
+        <p><strong>Q300.00</strong></p>
+        <button class="btn">Agregar</button>
+      </div>
+
+      <div class="card">
+        <img src="Imagenes/botella deportiva.jpg" alt="Calcetas de Rendimiento">
+        <h3>Termo de aluminio</h3>
+        <p>Diseñadas para guardar tus bebidas.</p>
+        <p><strong>Q90.00</strong></p>
+        <button class="btn">Agregar</button>
+      </div>
+
+      <div class="card">
+        <img src="Imagenes/conjunto deportivo.jpg" alt="Guantes de Entrenamiento">
+        <h3>conjunto de Entrenamiento</h3>
+        <p>Protección superior en cada rutina.</p>
+        <p><strong>Q310.00</strong></p>
+        <button class="btn">Agregar</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+ <footer>
+    <div class="footer-content">
+      <div class="footer-info">
+        <p><strong>Victory Sports</strong></p>
+        <p>Ciudad de Guatemala</p>
+        <p>Correo: victorysports@gmail.com</p>
+        <p>Telefono: +502 55 1234 5678</p>
+      </div>
+      <div class="footer-logo">
+        <img src="Imagenes/Logo.jpg" alt="Logo Footer" width="60"> <!-- 💡 Logo en el footer -->
+      </div>
+    </div>
+    <p class="copy">&copy; 2025 Victory Sports - Todos los derechos reservados</p>
+  </footer>
+  <script>
+  function toggleMenu() {
+    document.querySelector('.nav-links').classList.toggle('active');
+  }
+</script>
+</body>
+</html>
